@@ -1,9 +1,18 @@
 Git Cheatsheet
 ===============
 
+ 1. [Setup & Config](#setup--config)
+ 2. [Init & Clone](#init--clone)
+ 3. [Staging & Snapshots](#staging--snapshots)
+ 4. [Moving, Removing, & Restoring](#moving-removing--restoring)
+ 5. [Branches & Merging](#branches--merging)
+ 6. [Inspect & Compare](#inspect--compare)
+ 7. [Temporary Storage](#temporary-storage)
+ 8. [Releases & Version Tags](#releases--version-tags)
+ 9. [Share and Get Updates](#share-and-get-updates)
+ 10. [Rewrite History](#rewrite-history)
 
-Setup & Config
------------
+## Setup & Config
 
 See where Git is located:  
 `which git`
@@ -22,8 +31,7 @@ See existing git config:
 `git config --list`
 
 
-Init & Clone
------------
+## Init & Clone
 
 Initialize Git:  
 `git init`
@@ -35,8 +43,7 @@ Clone specific branch to localhost:
 `git clone -b branchname https://github.com/user/project.git`
 
 
-Staging & Snapshots
------------
+## Staging & Snapshots
 
 See the status of the working directory:  
 `git status`
@@ -54,8 +61,7 @@ Commit staged changes as a new snapshot:
 `git commit -m "[Message]"`
 
 
-Moving, Removing, & Restoring
------------
+## Moving, Removing, & Restoring
 
 Remove files from Git:  
 `git rm [--cached] [file]`
@@ -73,8 +79,7 @@ Add a new commit that undoes a previous commit:
 `git revert cdbfda8`
 
 
-Branches & Merging
------------
+## Branches & Merging
 
 Show local branches:  
 `git branch [-vv]`
@@ -92,8 +97,7 @@ Stop merge in case of conflicts:
 `git merge --abort`
 
 
-Inspect & Compare
------------
+## Inspect & Compare
 
 Show commits with metadata:  
 `git log`
@@ -120,8 +124,7 @@ Show metadata and patch for a given commit:
 `git show [SHA]`
 
 
-Temporary Storage
------------
+## Temporary Storage
 
 Stash modified and staged changes:  
 `git stash`
@@ -136,8 +139,7 @@ Mount stashed commit but not drop it:
 `git stash apply`
 
 
-Releases & Version Tags
------------
+## Releases & Version Tags
 
 Show all released versions:  
 `git tag`
@@ -149,8 +151,7 @@ Checkout a specific released version:
 `git checkout v1.0.0`
 
 
-Share and Get Updates
------------
+## Share and Get Updates
 
 Add remote:  
 `git remote add [alias] [url]`
@@ -180,8 +181,7 @@ Fetch, merge, and rebase from upstream:
 `git pull --rebase`
 
 
-Rewrite History
------------
+## Rewrite History
 
 Removes commits newer than specified commit and stages modified files:  
 `git reset --soft cdbfda8`
