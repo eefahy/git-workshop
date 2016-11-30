@@ -13,3 +13,4 @@
   - GitHub integrations
     - notifications (Slack)
     - continuous integration (travis?)
+  - update README with order to pages
