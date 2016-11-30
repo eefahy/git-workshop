@@ -1,16 +1,16 @@
 Git Cheatsheet
 ===============
 
- 1. [Setup & Config](#setup--config)
- 2. [Init & Clone](#init--clone)
- 3. [Staging & Snapshots](#staging--snapshots)
- 4. [Moving, Removing, & Restoring](#moving-removing--restoring)
- 5. [Branches & Merging](#branches--merging)
- 6. [Inspect & Compare](#inspect--compare)
- 7. [Temporary Storage](#temporary-storage)
- 8. [Releases & Version Tags](#releases--version-tags)
- 9. [Share and Get Updates](#share-and-get-updates)
- 10. [Rewrite History](#rewrite-history)
+ - [Setup & Config](#setup--config)
+ - [Init & Clone](#init--clone)
+ - [Staging & Snapshots](#staging--snapshots)
+ - [Moving, Removing, & Restoring](#moving-removing--restoring)
+ - [Branches & Merging](#branches--merging)
+ - [Inspect & Compare](#inspect--compare)
+ - [Temporary Storage](#temporary-storage)
+ - [Releases & Version Tags](#releases--version-tags)
+ - [Share and Get Updates](#share-and-get-updates)
+ - [Rewrite History](#rewrite-history)
 
 ## Setup & Config
 
