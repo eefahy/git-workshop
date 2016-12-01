@@ -17,7 +17,6 @@ Git Cheatsheet
 See where Git is located:  
 `which git`
 
-
 Get the version of Git:  
 `git --version`
 
@@ -58,7 +57,7 @@ View changes:
 `git diff [--staged]`
 
 Commit staged changes as a new snapshot:  
-`git commit -m "[Message]"`
+`git commit [-m] ["Message"]`
 
 
 ## Moving, Removing, & Restoring
@@ -182,6 +181,9 @@ Fetch, merge, and rebase from upstream:
 
 
 ## Rewrite History
+
+Interactive rebasing of commits:
+`git rebase --interactive`
 
 Removes commits newer than specified commit and stages modified files:  
 `git reset --soft cdbfda8`
