@@ -95,7 +95,7 @@ Merge specified branch history into current branch:
 Stop merge in case of conflicts:  
 `git merge --abort`
 
-Bring a commit from another branch into current branch:
+Bring a commit from another branch into current branch:  
 `git cherry-pick [SHA]`
 
 
