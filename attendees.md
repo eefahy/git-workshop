@@ -1,4 +1,5 @@
 emily,
 bernardo 
 alex
-laura and others
+laura
+ and other colleagues
