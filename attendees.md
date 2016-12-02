@@ -1,7 +1,7 @@
 Attendees
 ===============
 
-## Saundra Barrett Testing
+## Saundra Barrett
 emily,
 bernardo
 alex
