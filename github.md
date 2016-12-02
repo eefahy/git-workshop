@@ -24,7 +24,8 @@ Then [upload your SSH Key](https://github.com/settings/keys) to your GitHub acco
 If everything is properly configured you should get:
 ```
 Hi username! You've successfully authenticated, but GitHub does not
-provide shell access.```
+provide shell access.
+```
 
 
 ### Issues
@@ -76,7 +77,8 @@ Further paragraphs come after blank lines.
 
   - Typically a hyphen or asterisk is used for the bullet, preceded by
   a single space, with blank lines in between, but conventions vary
-  here```
+  here
+```
 
 If a summary of the change is too difficult to describe, it might be a sign of the commit being too big and should therefore be broken down in to multiple commits using `git add -p`
 
