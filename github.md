@@ -9,12 +9,10 @@ GitHub
   - [Tags and Releases](#tags-and-releases)
   - [All Together Now](#all-together-now)
 
-
-### Bare Repositories
+## Bare Repositories
 GitHub makes available something called _bare repositories_ for the purpose of storing, publishing, and sharing files. Bare repositories do not have working directories or specific checked out versions of the code itself but rather operates as the centralized repository for managing access and collaboration.
 
-
-### Authentication
+## Authentication
 GitHub uses SSH keys to authenticate computers to GitHub user accounts. If you don't already have a SSH key made, create one by running:  
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
 
@@ -27,8 +25,7 @@ Hi username! You've successfully authenticated, but GitHub does not
 provide shell access.
 ```
 
-
-### Issues
+## Issues
 
 Each GitHub repository automatically gets an Issues interface to track, document, and discuss issues regarding bugs, feature requests, technical debt, etc. Issues can have labels, milestones, and assignees.
 
@@ -45,15 +42,13 @@ General guidelines for submitting an issue:
 
 There's a lot more to issues, including the ability to link issues between separate repos, close issues with comments in pull requests, and solicit others to weigh in on issue discussion but @mentions and notification settings. See [GitHub's Guide to Issues](https://guides.github.com/features/issues/) for more information.
 
-
-### Workflows
+## Workflows
 
 GitHub offers a bunch of features to collaborate on your files and as a result, various workflows have developed around those features. Each workflow differs on its prescribed branching schemes and the deployment concerns around them, but generically, most workflows assume that the `master` branch should be protected and always in a deployable state. The most important aspect of workflows though is that it's agreed upon within the core committers and well documented for external contributors.
 
 One light-weight workflow is [GitHub Flow](https://guides.github.com/introduction/flow/) which leverages the features in GitHub like Pull Requests to encourage transparency and collaboration.
 
-
-### Commit Messages Best Practice
+## Commit Messages Best Practice
 
 Commit messages are incredibly helpful when they are well written. They serve at least three important purposes:
  - speeds up code review
@@ -82,8 +77,7 @@ Further paragraphs come after blank lines.
 
 If a summary of the change is too difficult to describe, it might be a sign of the commit being too big and should therefore be broken down in to multiple commits using `git add -p`
 
-
-### Tags and Releases
+## Tags and Releases
 
 Tags come in two flavors: light-weight and annotated.
 
@@ -93,8 +87,7 @@ Annotated tags are, yep, annotated. That means they get an author name and date,
 
 Tagging your code works hand in hand with publishing a release. Once a tag is created on a branch, releases can be made through the GitHub UI.
 
-
-### All Together Now
+## All Together Now
 
 Test out your ability to do the following:
   - [ ] Create an issue
