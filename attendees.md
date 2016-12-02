@@ -5,6 +5,6 @@
 * Alex Cooper
 * Gretchen Warner
 * Emily Porter
-* Sandra Barrett
+* Saundra Barrett
 * Kristian Serrano
 * Elizabeth Peele Mumpower
