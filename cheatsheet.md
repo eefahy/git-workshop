@@ -2,6 +2,7 @@ Git Cheatsheet
 ===============
 
  - [Setup & Config](#setup--config)
+ - [Authentication](#authentication)
  - [Init & Clone](#init--clone)
  - [Staging & Snapshots](#staging--snapshots)
  - [Moving, Removing, & Restoring](#moving-removing--restoring)
@@ -29,6 +30,18 @@ Basic config for the git client:
 See existing git config:  
 `git config --list`
 
+## Authentication
+GitHub uses SSH keys to authenticate computers to GitHub user accounts. If you don't already have a SSH key made, create one by running:  
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+
+Then [upload your SSH Key](https://github.com/settings/keys) to your GitHub account and test access to your account by running:  
+`ssh -T git@github.com`
+
+If everything is properly configured you should get:
+```
+Hi username! You've successfully authenticated, but GitHub does not
+provide shell access.
+```
 
 ## Init & Clone
 
